@@ -32,7 +32,7 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
           # AÑADE ESTA LÍNEA AQUÍ ABAJO:
-          app_build_command: "npm install --legacy-peer-deps && npm run build"
+          app_build_command: "npm install --force && npm run build"
           skip_app_build: false
           ###### End of Repository/Build Configurations ######
 
